@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 10%;
+    width: 80%
+}
+.bar li{
+    font-weight: 600;
+}
+.icn1 i{
+    margin-left: 50px;
+}
+
+.main{
+    height: 95vh;
+}
+.bar img{
+    width: 160px;
+    float: left;
+    margin-right: 20px;
+}
+.show{
+    height: 56vh;
+}
+
+.list li{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 8px;
+    padding: 5px 5px;
+    transition: border 0.2s linear;
+}
+
+.list li:hover{
+    border: 2px solid black;
+
+}
+.table{
+    position: absolute;
+    opacity: 0;
+    border-collapse: collapse;
+    z-index: 2;
+    transform: scale(0.5,0.5);
+    background-color: aliceblue;
+    border: 2px solid;
+    margin-left: 0;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+.list .li1:hover .table{
+    opacity: 1;
+    transform: scale(1,1);
+
+}
+th,td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px dotted;
+}
+.main img{
+    width: 100%;
+    position: relative;
+    margin-top: -10px;
+
+}
+.main h2{
+    position: absolute;
+    font-size: 45px;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+.main button{
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    width: 140px;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: black;
+}
+.chair{
+    float: left;
+    
+}
+.chair img{
+    width: 245px;
+}
+.chair h5{
+    color: darkgray;
+    margin-top: 10px;
+}
+.chair h3{
+    display: inline-block;
+
+}
+.chair i{
+    display: inline-block;
+    margin-left: 68px;
+    background-color: darkred;
+    color: azure;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+}
+.longsec{
+    height:50vh;
+}
+.chair:hover i{
+    opacity: 1; 
+}
+.ch{
+    margin-right: 1%;
+}
+.dint{
+    float: left;
+}
+.show h2{
+    text-align: center;
+}
+.line{
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.dint img{
+    width: 245px;
+}
+.p{
+    background-color: lightgray;
+    width: 500px;
+    height: 300px;
+    padding: 20px 20px;
+    float: left;
+    margin-right: 1%;
+}
+.dint{
+    float: left;
+}
+.dint img{
+    position: relative;
+    height: 300px;
+}
+.dint h4{
+    position: absolute;
+    top: 170%;
+    left: 77%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    font-size: 20px;
+}
+.tt h4{
+    position: absolute;
+    top: 170%;
+    left: 57%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+.dint p{
+    position: absolute;
+    top: 167%;
+    left: 56%;
+    font-size: 17px;
+    transform: translate(-50%,-50%);
+}
+.tt p{
+    position: absolute;
+    top: 167%;
+    left: 76%;
+    font-size: 17px;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.tt{
+    margin-right: 1%;
+}
+.p i{
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+}
+.p h2{
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 50px;
+}
+.p h6{
+    margin-left: 50px;
+}
+.p p{
+    margin-top: 30px;
+    line-height: 24px;
+    font-size: 17px;
+}
+.iconscll{
+     height: 100px;
+    overflow: hidden;
+
+}
+.iconscll .icn i{
+    font-size: 40px;
+    margin-left: 63px;
+    transform-origin: center center;
+    color: grey;
+    
+}
+
+ .iconscll .icn:hover i{
+    color:darkslategray;
+    animation: ai 0.3s 1 ease-in;
+}
+
+@keyframes ai{
+    0%{transform: translateY(0);}
+    25%{transform: translateY(-50px);}
+    50%{transform: translateY(-100px);}
+    75%{transform: translateY(18px);}
+    90%{transform: translateY(10px);}
+    100%{transform: translateY(0);}
+}
+
+.iconscll .icn:not(:hover) i{
+    animation: ai2 0.3s 1 ease-in;
+}
+
+@keyframes ai2{
+    0%{transform: translateY(0);}
+    25%{transform: translateY(10px);}
+    50%{transform: translateY(18px);}
+    75%{transform: translateY(-100px);}
+    90%{transform: translateY(-50px);}
+    100%{transform: translateY(0);}
+}
+
+.iconscll h5{
+    font-size: 16px;
+    text-align: center;
+}
+.icn{
+    float: left;
+    margin: 12px;
+}
+.hl{
+    height: 90px;
+    width: 2px;
+    background-color: black;
+    float: left;
+}
+.product img{
+    display: block;
+    width: 100%;
+}
+.containerimg{
+    position: relative;
+    
+}
+.mainimg{
+    float: left;
+    border: 2px solid grey;
+}
+.secimg{
+    
+    position: absolute;
+    opacity: 0;
+    border: 2px solid grey;
+    transition: opacity 0.3s ease-in-out;
+}
+.secimg:hover{
+    opacity: 1;
+}
+.overlayimg{
+    position: absolute;
+    opacity: 0.7;
+    top: 50%;
+    left: 37%;
+    transform: translate(-30%,-50%);
+    margin: auto;
+}
+.overlayimg i{
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    background-color: black;
+
+}
+.overlayimg:hover{
+      opacity: 1;
+
+}
+.iii{
+    margin-top: 310px;
+}
+.products{
+    float: left;
+}
+.product, .dtr{
+    float: left;
+    width: 300px;
+}
+.content1{
+    margin: 40px 0px;
+}
+.content2{
+    margin-top: 40px;
+}
+.product i{
+    color: yellow;
+}
+.product .dd{
+    color: black;
+}
+.product h6{
+    margin-bottom: 30px;
+}
+.fp{
+    text-align: center;
+    font-size: 30px;
+}
+.dtr{
+    margin: 0px 50px;
+}
